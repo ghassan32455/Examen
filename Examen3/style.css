@@ -1,0 +1,150 @@
+.container {
+	max-width: 500px;
+	margin:  auto;
+	padding: 20px;
+	background-color: #f0ac1b;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(99, 79, 155, 0.2);
+	margin-top: 100px;
+
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+label {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+input[type="text"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	margin-bottom: 20px;
+}
+
+button[type="submit"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #1b2dce;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+#credit-info {
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.credit-status {
+	background-color: #f7f7f7;
+	border-radius: 5px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+  }
+  
+  .credit-status h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  .credit-status p {
+	font-size: 16px;
+	margin-bottom: 5px;
+  }
+  
+  .credit-status.success {
+	background-color: #c8e6c9;
+  }
+  
+  .credit-status.danger {
+	background-color: #ffcdd2;
+  }
+
+  .financial-status {
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin-top: 20px;
+  }
+  
+  .financial-status h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  .financial-status p {
+	font-size: 16px;
+	margin-bottom: 5px;
+  }
+  
+  .status-line {
+	height: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+  }
+  
+  .status-line.green {
+	background-color: #c8e6c9;
+  }
+  
+  .status-line.red {
+	background-color: #ffcdd2;
+  }
+  
+  nav {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+  }
+  
+  nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	margin: 0;
+  }
+  
+  nav ul li {
+	margin: 0 20px;
+  }
+  
+  nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+	color: #f7b731;
+  }
+
+  img {
+	width: 10%;
+  }
+  
